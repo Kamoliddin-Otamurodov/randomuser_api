@@ -4,22 +4,25 @@
 # Set up a virtual environment
 
 -  Create a virtual environment
+In Windows
 ```bash
-in Windows
 python -m venv venv
-in linux/mac
+```
+In linux/mac
+```bash
 python3 -m venv venv
 ```
 
 ## Activate the virtual environment
 
-```bash
 in Windows
+```bash
 source venv/Scripts/activate
+```
 in linux/mac
+```bash
 source venv/bin/activate
 ```
-
 ## Deactivate the virtual environment
 
 ```
