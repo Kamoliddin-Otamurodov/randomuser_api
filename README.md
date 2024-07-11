@@ -5,12 +5,18 @@
 
 -  Create a virtual environment
 ```bash
+in Windows
+python -m venv venv
+in linux/mac
 python3 -m venv venv
 ```
 
 ## Activate the virtual environment
 
 ```bash
+in Windows
+source venv/Scripts/activate
+in linux/mac
 source venv/bin/activate
 ```
 
